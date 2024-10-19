@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.instagram-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post p {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
